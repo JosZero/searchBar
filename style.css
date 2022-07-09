@@ -1,0 +1,43 @@
+body {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.search-bar {
+      border: 1px solid #ccc;
+      width: 700px;
+      border-radius: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5px 10px;
+      margin: 100px auto;
+      transition: all 0.3s ease-in-out;
+}
+.search-bar:focus-within {
+      border: 1px solid #aaa;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.search-bar input[type="text"] {
+      
+      border: none;
+      outline: none;
+      padding: 10px;
+      flex: 1;
+      font-size: 18px;
+}
+.search-bar .actions {
+      display: flex;
+      gap: 5px;
+}
+.search-bar .actions button {
+      border: none;
+      outline: none;
+      background: none;
+      cursor: pointer;
+      color: #999;
+      font-size: 1.3rem;
+      transition: all 0.3 ease;
+}
+.search-bar .actions button:hover {
+      color: rgb(70, 68, 68);
+}
